@@ -21,6 +21,19 @@ html {
     width: 100%;
 }
 
+h1, h2 {
+    color: var(--secondary-color);
+    font-family: var(--head-font)
+}
+h2 {
+    font-size: 1.2rem;
+}
+p {
+    font-size: 0.8rem;
+    color: #fff;
+    font-family: var(----paragraph-font);
+}
+
 body {
     /* background-image: linear-gradient(red, orange, yellow, green, blue, purple); */
     height: 100vh; 
