@@ -8,10 +8,10 @@ const GlobalStyle = createGlobalStyle`
 }
 
     :root {
-     --primary-color: pink;
-     --secondary-color: #100E0E;
-     --head-font: 'Arial', sans-serif;
-     --paragraph-font: 'Arial', sans-serif;
+     --primary-color: #290058;
+     --secondary-color: #D6FF00;
+     --head-font: 'Paytone One', sans-serif;
+     --paragraph-font: 'Roboto', sans-serif;
 }
 
 html {
