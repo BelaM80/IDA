@@ -5,8 +5,6 @@ import Logo from "../assets/LOGO-DUGAY.svg"
 const Header = styled.header`
  width: 100vw;
  background-color: var(--primary-color);
- color: var(--secondary-color);
- font-family: var(--head-font);
  display: grid;
  grid-template-rows: 1fr, 1fr;
  justify-content: center;
