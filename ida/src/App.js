@@ -8,7 +8,6 @@ function App() {
     <GlobalStyle />
     <div >
       <Header>IDAHOBIT DUISBURG</Header>
-      Hello World
     </div>
     </>
   );
