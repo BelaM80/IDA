@@ -1,3 +1,4 @@
+import Header from "./components/Header";
 import GlobalStyle from "./GlobalStyle";
 
 
@@ -6,7 +7,7 @@ function App() {
     <>
     <GlobalStyle />
     <div >
-      Hello World
+      <Header>IDAHOBIT DUISBURG</Header>
     </div>
     </>
   );

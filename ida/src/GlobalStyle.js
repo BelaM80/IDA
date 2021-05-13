@@ -24,7 +24,9 @@ html {
 body {
     /* background-image: linear-gradient(red, orange, yellow, green, blue, purple); */
     height: 100vh; 
-    background-color: purple;
+    background-image: linear-gradient(to right, #FF0000, #FFD701, #A2A84F, #02DC20, #003E67, #4F00F1);
+    display: flex;
+    justify-content: center
 }
 `;
 
