@@ -2,12 +2,14 @@ import styled from "styled-components/macro";
 import Perso from "../assets/videos/Personalrat-Duisburg.mp4";
 import Harle from "../assets/videos/Harlekin.MP4";
 import Christian from "../assets/videos/Christian.mov";
+import Ihk from "../assets/videos/IHKDuisburg.mp4";
 
 
 const Div = styled.div`
  width: 100%;
  background-color: var(--primary-color);
  margin-top: 3rem;
+ box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.42);
  h3 {
      margin-left: 1rem;
  }
@@ -39,5 +41,15 @@ export function DuGay () {
         </Div>
     )
 };
+
+export function IhkDuisburg () {
+    return(
+        <Div>
+            <h3>IHK Duisburg.</h3>
+            <video controls src={Ihk} width="100%" height="auto" />
+        </Div>
+    )
+};
+
 
 
