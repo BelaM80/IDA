@@ -16,6 +16,7 @@ import Bas from "../assets/videos/BärbelBas.mp4";
 import Sascha from "../assets/videos/IDAHOBIT_SPD.mp4";
 import bb from "../assets/videos/LSVD-BB.mov";
 import sachsen from "../assets/videos/LSVDSachsen.mp4";
+import soren from "../assets/videos/SörenLink.mp4";
 
 
 const Div = styled.div`
@@ -192,5 +193,12 @@ export function LsvdSachsen () {
     )
 };
 
-
+export function ObDu () {
+    return(
+        <Div>
+            <h3>Sören Link (SPD) - Oberbürgermeister der Stadt Duisburg</h3>
+            <video controls src={soren} width="100%" height="auto" />
+        </Div>
+    )
+};
 
