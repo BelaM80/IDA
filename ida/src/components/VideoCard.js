@@ -17,6 +17,7 @@ import Sascha from "../assets/videos/IDAHOBIT_SPD.mp4";
 import bb from "../assets/videos/LSVD-BB.mov";
 import sachsen from "../assets/videos/LSVDSachsen.mp4";
 import soren from "../assets/videos/SörenLink.mp4";
+import heyde from "../assets/videos/DietmarHeyde.mp4";
 
 
 const Div = styled.div`
@@ -201,4 +202,14 @@ export function ObDu () {
         </Div>
     )
 };
+
+export function Heyde () {
+    return(
+        <Div>
+            <h3>Diemar Heyde (Die Grünnen) - Bürgermeister ser Stadt Rheinberg</h3>
+            <video controls src={heyde} width="100%" height="auto" />
+        </Div>
+    )
+};
+
 
