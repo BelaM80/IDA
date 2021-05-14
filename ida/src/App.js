@@ -3,7 +3,7 @@ import GlobalStyle from "./GlobalStyle";
 import Information from "./components/Information"
 import styled from "styled-components/macro";
 import { BaerbelBas, DuGay, Federleicht, Gruene, Harlekin, Herzenslust, IhkDuisburg, JuDu, Jusos, Lsvd, Oper, 
-  Personalrat, PositivHandeln, PrinzTobias, Queerflexiv } from "./components/VideoCard";
+  Personalrat, PositivHandeln, PrinzTobias, Queerflexiv, SpdQueer } from "./components/VideoCard";
 
 
 const Div = styled.div`
@@ -43,6 +43,7 @@ function App() {
         <PositivHandeln />
         <PrinzTobias />
         <Lsvd />
+        <SpdQueer />
         </Main>
       </Div>
     </>
