@@ -7,6 +7,7 @@ import Herz from "../assets/videos/Herzenslust.MP4";
 import Green from "../assets/videos/Grüne.mp4";
 import Dor from "../assets/videos/DOR_2021.m4v";
 import Jus from "../assets/videos/JUSOS.mp4";
+import Positiv from "../assets/videos/Positivhandeln.mp4";
 
 
 const Div = styled.div`
@@ -89,6 +90,16 @@ export function Jusos () {
         </Div>
     )
 };
+
+export function PositivHandeln () {
+    return(
+        <Div>
+            <h3>Positiv Handeln</h3>
+            <video controls src={Positiv} width="100%" height="auto" />
+        </Div>
+    )
+};
+
 
 
 
