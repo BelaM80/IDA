@@ -21,9 +21,9 @@ const Footer = () => {
     return(
         <Foot>
             <div>
-                <a href="http://dugay.de/datenschutzerklaerung-2/">Datenschutz</a>
-                <a href="http://dugay.de/impressum-2/">Impressum</a>
-                <a href="http://dugay.de/">DU-Gay</a>
+                <a href="http://dugay.de/datenschutzerklaerung-2/" target="_blank" rel="noreferrer">Datenschutz</a>
+                <a href="http://dugay.de/impressum-2/" target="_blank" rel="noreferrer">Impressum</a>
+                <a href="http://dugay.de/" target="_blank" rel="noreferrer">DU-Gay</a>
                 <a href="mailto: info@dugay.de" >Email</a>
             </div>
         </Foot>
