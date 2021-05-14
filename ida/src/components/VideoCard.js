@@ -8,6 +8,8 @@ import Green from "../assets/videos/Grüne.mp4";
 import Dor from "../assets/videos/DOR_2021.m4v";
 import Jus from "../assets/videos/JUSOS.mp4";
 import Positiv from "../assets/videos/Positivhandeln.mp4";
+import Feder from "../assets/videos/Federleicht.mp4";
+import Tobias from "../assets/videos/PrinzTobias.mov";
 
 
 const Div = styled.div`
@@ -18,6 +20,12 @@ const Div = styled.div`
  h3 {
      margin-left: 1rem;
  }
+`
+
+const Rahmen = styled.div`
+display: flex;
+ width: 50%;
+ margin: 0 auto;
 `
 
  export function Personalrat () {
@@ -96,6 +104,26 @@ export function PositivHandeln () {
         <Div>
             <h3>Positiv Handeln</h3>
             <video controls src={Positiv} width="100%" height="auto" />
+        </Div>
+    )
+};
+
+export function Federleicht () {
+    return(
+        <Div>
+            <h3>Federleicht - Duisburg</h3>
+            <video controls src={Feder} width="100%" height="auto" />
+        </Div>
+    )
+};
+
+export function PrinzTobias () {
+    return(
+        <Div>
+            <h3>Prinz Tobias I. - Stadtprinz Duisburg</h3>
+            <Rahmen>
+            <video controls src={Tobias} width="100%" height="auto" />
+            </Rahmen>
         </Div>
     )
 };
