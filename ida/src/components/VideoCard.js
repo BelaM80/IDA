@@ -4,7 +4,8 @@ import Harle from "../assets/videos/Harlekin.MP4";
 import Christian from "../assets/videos/Christian.mov";
 import Ihk from "../assets/videos/IHKDuisburg.mp4";
 import Herz from "../assets/videos/Herzenslust.MP4";
-import Green from "../assets/videos/Grüne.mp4"
+import Green from "../assets/videos/Grüne.mp4";
+import Dor from "../assets/videos/DOR_2021.m4v";
 
 
 const Div = styled.div`
@@ -66,6 +67,15 @@ export function Gruene () {
         <Div>
             <h3>Die Grünen - Duisburg</h3>
             <video controls src={Green} width="100%" height="auto" />
+        </Div>
+    )
+};
+
+export function Oper () {
+    return(
+        <Div>
+            <h3>Deutsche Oper am Rhein - Düsseldorf/Duisburg</h3>
+            <video controls src={Dor} width="100%" height="auto" />
         </Div>
     )
 };

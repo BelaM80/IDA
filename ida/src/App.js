@@ -2,7 +2,7 @@ import Head from "./components/Header";
 import GlobalStyle from "./GlobalStyle";
 import Information from "./components/Information"
 import styled from "styled-components/macro";
-import { DuGay, Gruene, Harlekin, Herzenslust, IhkDuisburg, Personalrat } from "./components/VideoCard";
+import { DuGay, Gruene, Harlekin, Herzenslust, IhkDuisburg, Oper, Personalrat } from "./components/VideoCard";
 
 
 const Div = styled.div`
@@ -34,6 +34,7 @@ function App() {
         <IhkDuisburg />
         <Herzenslust />
         <Gruene />
+        <Oper />
         </Main>
       </Div>
     </>
