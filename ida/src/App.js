@@ -2,8 +2,8 @@ import Head from "./components/Header";
 import GlobalStyle from "./GlobalStyle";
 import Information from "./components/Information"
 import styled from "styled-components/macro";
-import { DuGay, Federleicht, Gruene, Harlekin, Herzenslust, IhkDuisburg, Jusos, Oper, 
-  Personalrat, PositivHandeln, PrinzTobias } from "./components/VideoCard";
+import { DuGay, Federleicht, Gruene, Harlekin, Herzenslust, IhkDuisburg, Jusos, Lsvd, Oper, 
+  Personalrat, PositivHandeln, PrinzTobias, Queerflexiv } from "./components/VideoCard";
 
 
 const Div = styled.div`
@@ -34,12 +34,14 @@ function App() {
         <Harlekin />
         <IhkDuisburg />
         <Herzenslust />
+        <Queerflexiv />
         <Gruene />
         <Oper />
         <Jusos />
         <Federleicht />
         <PositivHandeln />
         <PrinzTobias />
+        <Lsvd />
         </Main>
       </Div>
     </>

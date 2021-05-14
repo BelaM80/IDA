@@ -10,6 +10,8 @@ import Jus from "../assets/videos/JUSOS.mp4";
 import Positiv from "../assets/videos/Positivhandeln.mp4";
 import Feder from "../assets/videos/Federleicht.mp4";
 import Tobias from "../assets/videos/PrinzTobias.mov";
+import ls from "../assets/videos/Video-LSVD.mp4";
+import queer from "../assets/videos/Video-Queerflexiv.mp4";
 
 
 const Div = styled.div`
@@ -127,6 +129,25 @@ export function PrinzTobias () {
         </Div>
     )
 };
+
+export function Lsvd () {
+    return(
+        <Div>
+            <h3>LSVD </h3>
+            <video controls src={ls} width="100%" height="auto" />
+        </Div>
+    )
+};
+
+export function Queerflexiv () {
+    return(
+        <Div>
+            <h3>Querflexiv</h3>
+            <video controls src={queer} width="100%" height="auto" />
+        </Div>
+    )
+};
+
 
 
 
