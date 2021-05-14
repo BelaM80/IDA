@@ -33,9 +33,9 @@ function App() {
       <Div >
         <Main>
         <Information />
+        <DuGay />
         <ObDu /> 
         <Heyde />
-        <DuGay />
         <Personalrat />
         <Harlekin />
         <IhkDuisburg />

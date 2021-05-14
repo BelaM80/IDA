@@ -206,7 +206,7 @@ export function ObDu () {
 export function Heyde () {
     return(
         <Div>
-            <h3>Diemar Heyde (Die Grünnen) - Bürgermeister ser Stadt Rheinberg</h3>
+            <h3>Diemar Heyde (Die Grünen) - Bürgermeister der Stadt Rheinberg</h3>
             <video controls src={heyde} width="100%" height="auto" />
         </Div>
     )
