@@ -15,6 +15,7 @@ import queer from "../assets/videos/Video-Queerflexiv.mp4";
 import Bas from "../assets/videos/BärbelBas.mp4";
 import Sascha from "../assets/videos/IDAHOBIT_SPD.mp4";
 import bb from "../assets/videos/LSVD-BB.mov";
+import sachsen from "../assets/videos/LSVDSachsen.mp4";
 
 
 const Div = styled.div`
@@ -136,7 +137,7 @@ export function PrinzTobias () {
 export function Lsvd () {
     return(
         <Div>
-            <h3>LSVD </h3>
+            <h3>LSVD NRW</h3>
             <video controls src={ls} width="100%" height="auto" />
         </Div>
     )
@@ -180,6 +181,16 @@ export function LsvdBb () {
     )
 };
 
+export function LsvdSachsen () {
+    return(
+        <Div>
+            <h3>LSVD Sachsen</h3>
+            <Rahmen>
+            <video controls src={sachsen} width="100%" height="auto" />
+            </Rahmen>
+        </Div>
+    )
+};
 
 
 

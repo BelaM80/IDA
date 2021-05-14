@@ -2,7 +2,7 @@ import Head from "./components/Header";
 import GlobalStyle from "./GlobalStyle";
 import Information from "./components/Information"
 import styled from "styled-components/macro";
-import { BaerbelBas, DuGay, Federleicht, Gruene, Harlekin, Herzenslust, IhkDuisburg, JuDu, Jusos, Lsvd, LsvdBb, Oper, 
+import { BaerbelBas, DuGay, Federleicht, Gruene, Harlekin, Herzenslust, IhkDuisburg, JuDu, Jusos, Lsvd, LsvdBb, LsvdSachsen, Oper, 
   Personalrat, PositivHandeln, PrinzTobias, Queerflexiv, SpdQueer } from "./components/VideoCard";
 
 
@@ -37,6 +37,7 @@ function App() {
         <Queerflexiv />
         <Gruene />
         <BaerbelBas />
+        <LsvdSachsen />
         <Oper />
         <Jusos />
         <Federleicht />
