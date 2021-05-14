@@ -34,7 +34,7 @@ const Head = () => {
         <Header>
             <h1>IDAHOBIT DUISBURG 2021</h1>
             <Link>
-                <a href="http://dugay.de/">
+                <a href="http://dugay.de/" target="_blank" rel="noreferrer">
                     Visit
                     <img src={Arrow} alt="#" width="20" height="22"/>
                     <img src={Logo} alt="#" width="117" height="26"/>
