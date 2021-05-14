@@ -13,12 +13,15 @@ justify-content: center;
 `
 
 const Main = styled.main`
- width: 40%;
+ width: 50%;
  display: flex;
  flex-direction: column;
  align-content: center;
  align-self: center;
  margin-top: 1rem;
+ @media (max-width: 1000px) {
+   width: 100%;
+ }
 
 `
 
