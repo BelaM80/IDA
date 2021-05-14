@@ -14,6 +14,7 @@ import ls from "../assets/videos/Video-LSVD.mp4";
 import queer from "../assets/videos/Video-Queerflexiv.mp4";
 import Bas from "../assets/videos/BärbelBas.mp4";
 import Sascha from "../assets/videos/IDAHOBIT_SPD.mp4";
+import bb from "../assets/videos/LSVD-BB.mov";
 
 
 const Div = styled.div`
@@ -162,13 +163,22 @@ export function BaerbelBas () {
 export function SpdQueer () {
     return(
         <Div>
-            <h3>SPD Queer</h3>
+            <h3>SPD Duisburg</h3>
             <video controls src={Sascha} width="100%" height="auto" />
         </Div>
     )
 };
 
-
+export function LsvdBb () {
+    return(
+        <Div>
+            <h3>LSVD Berlin-Brandenburg</h3>
+            <Rahmen>
+            <video controls src={bb} width="100%" height="auto" />
+            </Rahmen>
+        </Div>
+    )
+};
 
 
 
