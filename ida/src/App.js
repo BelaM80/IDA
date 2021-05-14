@@ -2,6 +2,8 @@ import Head from "./components/Header";
 import GlobalStyle from "./GlobalStyle";
 import Information from "./components/Information"
 import styled from "styled-components/macro";
+import { Harlekin, Personalrat } from "./components/VideoCard";
+
 
 const Div = styled.div`
 display: flex;
@@ -26,6 +28,8 @@ function App() {
       <Div >
         <Main>
         <Information />
+        <Personalrat />
+        <Harlekin />
         </Main>
       </Div>
     </>

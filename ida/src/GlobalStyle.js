@@ -21,13 +21,18 @@ html {
     width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: var(--secondary-color);
     font-family: var(--head-font)
 }
 h2 {
     font-size: 1.2rem;
 }
+
+h3 {
+    font-size: 0.8rem;
+}
+
 p {
     font-size: 0.8rem;
     color: #fff;
