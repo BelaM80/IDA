@@ -36,11 +36,11 @@ h3 {
 p {
     font-size: 0.8rem;
     color: #fff;
-    font-family: var(----paragraph-font);
+    font-family: var(--paragraph-font);
 }
 
 body {
-    /* background-image: linear-gradient(red, orange, yellow, green, blue, purple); */
+    margin: 0;
     height: 100vh; 
     background-image: linear-gradient(to right, #FF0000, #FFD701, #A2A84F, #02DC20, #003E67, #4F00F1);
     display: flex;
