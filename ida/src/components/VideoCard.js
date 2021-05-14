@@ -12,6 +12,7 @@ import Feder from "../assets/videos/Federleicht.mp4";
 import Tobias from "../assets/videos/PrinzTobias.mov";
 import ls from "../assets/videos/Video-LSVD.mp4";
 import queer from "../assets/videos/Video-Queerflexiv.mp4";
+import Bas from "../assets/videos/BärbelBas.mp4"
 
 
 const Div = styled.div`
@@ -144,6 +145,15 @@ export function Queerflexiv () {
         <Div>
             <h3>Querflexiv</h3>
             <video controls src={queer} width="100%" height="auto" />
+        </Div>
+    )
+};
+
+export function BaerbelBas () {
+    return(
+        <Div>
+            <h3>Bärbel Bas (MdB) - SPD Duisburg</h3>
+            <video controls src={Bas} width="100%" height="auto" />
         </Div>
     )
 };
