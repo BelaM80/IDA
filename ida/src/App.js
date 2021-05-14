@@ -2,6 +2,9 @@ import Head from "./components/Header";
 import GlobalStyle from "./GlobalStyle";
 import Information from "./components/Information"
 import styled from "styled-components/macro";
+import { BaerbelBas, DuGay, Federleicht, Gruene, Harlekin, Herzenslust, IhkDuisburg, JuDu, Jusos, Lsvd, LsvdBb, LsvdSachsen, Oper, 
+  Personalrat, PositivHandeln, PrinzTobias, Queerflexiv, SpdQueer } from "./components/VideoCard";
+
 
 const Div = styled.div`
 display: flex;
@@ -26,6 +29,23 @@ function App() {
       <Div >
         <Main>
         <Information />
+        <DuGay />
+        <Personalrat />
+        <Harlekin />
+        <IhkDuisburg />
+        <Herzenslust />
+        <Queerflexiv />
+        <Gruene />
+        <BaerbelBas />
+        <LsvdSachsen />
+        <Oper />
+        <Jusos />
+        <Federleicht />
+        <LsvdBb />
+        <PositivHandeln />
+        <PrinzTobias />
+        <Lsvd />
+        <SpdQueer />
         </Main>
       </Div>
     </>

@@ -3,7 +3,7 @@ import Arrow from "../assets/arrow-right.svg";
 import Logo from "../assets/LOGO-DUGAY.svg"
 
 const Header = styled.header`
- width: 100vw;
+ width: 100%;
  background-color: var(--primary-color);
  display: grid;
  grid-template-rows: 1fr, 1fr;
