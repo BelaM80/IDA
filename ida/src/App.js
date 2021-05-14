@@ -4,6 +4,7 @@ import Information from "./components/Information"
 import styled from "styled-components/macro";
 import { BaerbelBas, DuGay, Federleicht, Gruene, Harlekin, Herzenslust, Heyde, IhkDuisburg, Jusos, Lsvd, LsvdBb, LsvdSachsen, ObDu, Oper, 
   Personalrat, PositivHandeln, PrinzTobias, Queerflexiv, SpdQueer } from "./components/VideoCard";
+import Footer from "./components/Footer";
 
 
 const Div = styled.div`
@@ -50,6 +51,7 @@ function App() {
         <SpdQueer />
         </Main>
       </Div>
+      <Footer />
     </>
   );
 }
