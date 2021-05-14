@@ -3,6 +3,8 @@ import Perso from "../assets/videos/Personalrat-Duisburg.mp4";
 import Harle from "../assets/videos/Harlekin.MP4";
 import Christian from "../assets/videos/Christian.mov";
 import Ihk from "../assets/videos/IHKDuisburg.mp4";
+import Herz from "../assets/videos/Herzenslust.MP4";
+import Green from "../assets/videos/Grüne.mp4"
 
 
 const Div = styled.div`
@@ -36,7 +38,7 @@ export function Harlekin () {
 export function DuGay () {
     return(
         <Div>
-            <h3>Christian Karus - DuGay e.V.</h3>
+            <h3>DuGay e.V.</h3>
             <video controls src={Christian} width="100%" height="auto" />
         </Div>
     )
@@ -45,11 +47,29 @@ export function DuGay () {
 export function IhkDuisburg () {
     return(
         <Div>
-            <h3>IHK Duisburg.</h3>
+            <h3>IHK Duisburg</h3>
             <video controls src={Ihk} width="100%" height="auto" />
         </Div>
     )
 };
+
+export function Herzenslust () {
+    return(
+        <Div>
+            <h3>Herzenslust Duisburg</h3>
+            <video controls src={Herz} width="100%" height="auto" />
+        </Div>
+    )
+};
+export function Gruene () {
+    return(
+        <Div>
+            <h3>Die Grünen - Duisburg</h3>
+            <video controls src={Green} width="100%" height="auto" />
+        </Div>
+    )
+};
+
 
 
 
