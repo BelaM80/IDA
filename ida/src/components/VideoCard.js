@@ -7,7 +7,7 @@ import Herz from "../assets/videos/Herzenslust.MP4";
 import Green from "../assets/videos/Grüne.mp4";
 import Dor from "../assets/videos/DOR_2021.m4v";
 import Jus from "../assets/videos/JUSOS.mp4";
-import Positiv from "../assets/videos/IDAHOT.mp4";
+import Positiv from "../assets/videos/PositivH.mp4";
 import Feder from "../assets/videos/Federleicht.mp4";
 import Tobias from "../assets/videos/PrinzTobias.mov";
 import ls from "../assets/videos/Video-LSVD.mp4";
