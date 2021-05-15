@@ -18,6 +18,7 @@ import bb from "../assets/videos/LSVD-BB.mov";
 import sachsen from "../assets/videos/LSVDSachsen.mp4";
 import soren from "../assets/videos/SörenLink.mp4";
 import heyde from "../assets/videos/DietmarHeyde.mp4";
+import judu from "../assets/videos/JuDu.mp4";
 
 
 const Div = styled.div`
@@ -208,6 +209,15 @@ export function Heyde () {
         <Div>
             <h3>Diemar Heyde (Die Grünen) - Bürgermeister der Stadt Rheinberg</h3>
             <video controls src={heyde} width="100%" height="auto" />
+        </Div>
+    )
+};
+
+export function JuDu () {
+    return(
+        <Div>
+            <h3>Junges Duisburg - Fraktion</h3>
+            <video controls src={judu} width="100%" height="auto" />
         </Div>
     )
 };
