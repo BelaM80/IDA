@@ -7,7 +7,7 @@ import Herz from "../assets/videos/Herzenslust.MP4";
 import Green from "../assets/videos/Grüne.mp4";
 import Dor from "../assets/videos/DOR_2021.m4v";
 import Jus from "../assets/videos/JUSOS.mp4";
-import Positiv from "../assets/videos/IDAHOT.mp4";
+import Positiv from "../assets/videos/PositivH.mp4";
 import Feder from "../assets/videos/Federleicht.mp4";
 import Tobias from "../assets/videos/PrinzTobias.mov";
 import ls from "../assets/videos/Video-LSVD.mp4";
@@ -18,6 +18,7 @@ import bb from "../assets/videos/LSVD-BB.mov";
 import sachsen from "../assets/videos/LSVDSachsen.mp4";
 import soren from "../assets/videos/SörenLink.mp4";
 import heyde from "../assets/videos/DietmarHeyde.mp4";
+import judu from "../assets/videos/JuDu.mp4";
 
 
 const Div = styled.div`
@@ -57,7 +58,7 @@ export function Harlekin () {
 export function DuGay () {
     return(
         <Div>
-            <h3>DuGay e.V.</h3>
+            <h3>DUGay e.V.</h3>
             <video controls src={Christian} width="100%" height="auto" />
         </Div>
     )
@@ -101,7 +102,7 @@ export function Oper () {
 export function Jusos () {
     return(
         <Div>
-            <h3>JUSOS - Duisburg</h3>
+            <h3>Mahmut Özdemir - MdB (SPD) und JUSOS - Duisburg</h3>
             <video controls src={Jus} width="100%" height="auto" />
         </Div>
     )
@@ -110,7 +111,7 @@ export function Jusos () {
 export function PositivHandeln () {
     return(
         <Div>
-            <h3>Positiv Handeln</h3>
+            <h3>POSITHIV HANDELN</h3>
             <video controls src={Positiv} width="100%" height="auto" />
         </Div>
     )
@@ -148,7 +149,7 @@ export function Lsvd () {
 export function Queerflexiv () {
     return(
         <Div>
-            <h3>Querflexiv</h3>
+            <h3>Queerflexiv</h3>
             <video controls src={queer} width="100%" height="auto" />
         </Div>
     )
@@ -206,8 +207,17 @@ export function ObDu () {
 export function Heyde () {
     return(
         <Div>
-            <h3>Diemar Heyde (Die Grünnen) - Bürgermeister ser Stadt Rheinberg</h3>
+            <h3>Dietmar Heyde (Die Grünen) - Bürgermeister der Stadt Rheinberg</h3>
             <video controls src={heyde} width="100%" height="auto" />
+        </Div>
+    )
+};
+
+export function JuDu () {
+    return(
+        <Div>
+            <h3>Junges Duisburg - Fraktion</h3>
+            <video controls src={judu} width="100%" height="auto" />
         </Div>
     )
 };
