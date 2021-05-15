@@ -58,7 +58,7 @@ export function Harlekin () {
 export function DuGay () {
     return(
         <Div>
-            <h3>DuGay e.V.</h3>
+            <h3>DUGay e.V.</h3>
             <video controls src={Christian} width="100%" height="auto" />
         </Div>
     )
@@ -102,7 +102,7 @@ export function Oper () {
 export function Jusos () {
     return(
         <Div>
-            <h3>JUSOS - Duisburg</h3>
+            <h3>Mahmut Özdemir - MdB (SPD) und JUSOS - Duisburg</h3>
             <video controls src={Jus} width="100%" height="auto" />
         </Div>
     )
@@ -111,7 +111,7 @@ export function Jusos () {
 export function PositivHandeln () {
     return(
         <Div>
-            <h3>Positiv Handeln</h3>
+            <h3>POSITHIV HANDELN</h3>
             <video controls src={Positiv} width="100%" height="auto" />
         </Div>
     )
@@ -149,7 +149,7 @@ export function Lsvd () {
 export function Queerflexiv () {
     return(
         <Div>
-            <h3>Querflexiv</h3>
+            <h3>Queerflexiv</h3>
             <video controls src={queer} width="100%" height="auto" />
         </Div>
     )
@@ -207,7 +207,7 @@ export function ObDu () {
 export function Heyde () {
     return(
         <Div>
-            <h3>Diemar Heyde (Die Grünen) - Bürgermeister der Stadt Rheinberg</h3>
+            <h3>Dietmar Heyde (Die Grünen) - Bürgermeister der Stadt Rheinberg</h3>
             <video controls src={heyde} width="100%" height="auto" />
         </Div>
     )
