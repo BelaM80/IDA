@@ -1,4 +1,5 @@
 import styled from "styled-components/macro";
+import Lazyload from "react-lazyload";
 
 const Div = styled.div`
  width: 100%;
