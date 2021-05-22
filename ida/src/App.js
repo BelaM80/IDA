@@ -29,15 +29,6 @@ import Sascha from "./assets/videos/IDAHOBIT_SPD.mp4";
 
 
 
-
-
-
-
-
-
-
-
-
 const Div = styled.div`
 display: flex;
 justify-content: center;
