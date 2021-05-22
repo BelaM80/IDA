@@ -1,4 +1,5 @@
 import styled from "styled-components/macro";
+import Lazyload from "react-lazyload";
 
 const Div = styled.div`
  width: 100%;
@@ -21,7 +22,9 @@ const PortraitVideo = item => {
         <Div>
             <h3>{item.headline}</h3>
             <Rahmen>
-            <video controls src={item.videoSrc} width="100%" height="auto" />
+             <Lazyload height={200} offset={100}>
+              <video controls src={item.videoSrc} width="100%" height="auto" />
+             </Lazyload>
             </Rahmen>
         </Div>
     )
